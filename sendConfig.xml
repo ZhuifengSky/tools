@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+	注意: 
+	     #user#   将被替换为 姓名拼音
+  		 #enter#  回车换行
+  		 #tab#    制表符
+  		 #space#  空格
+        含义: 
+         nickName:发件人昵称
+         subject:邮件主题
+         content:正文
+         recieveUsers:接收用户，多个逗号“,”隔开
+-->
+<sendMail>
+  <mail>
+    <nickName>追风sky雾</nickName>
+    <subject>邮件主题</subject>
+    <content>
+ 			HI,#user#：#enter# 
+ 	   #tab# 这是我的一分#space#测试邮件看看你能收到吗？
+    </content>
+    <recieveUsers>zhangwu,guojunfei</recieveUsers>
+  </mail>
+</sendMail>
